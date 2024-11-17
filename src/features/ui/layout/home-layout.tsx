@@ -6,7 +6,7 @@ type HomeLayoutProps = {
 
 export const HomeLayout = ({ children }: HomeLayoutProps) => {
   return (
-    <div className="w-full min-h-screen bg-[#222] relative font-merriweather">
+    <div className="w-full min-h-screen relative font-merriweather">
       <Navbar />
       {children}
       <Footer />
