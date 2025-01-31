@@ -7,7 +7,8 @@ type UserType = "host" | "guest";
 
 const ViewLivestream = () => {
   const { id } = useParams();
-  const [searchParams, _] = useSearchParams();
+  const [searchParams, test] = useSearchParams();
+  console.log(test)
   const mode = searchParams.get("mode");
   return (
     <ViewStream roomName={id as string} userType={mode as UserType}/>
