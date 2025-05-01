@@ -1,11 +1,7 @@
 // import { ViewStream } from "@streamlink/react"
 import { useParams } from "react-router-dom";
 import "@livekit/components-styles";
-import {
-  StreamRoom,
-  StreamView,
-} from "@vidbloq/react";
-
+import { StreamRoom, StreamView } from "@vidbloq/react";
 
 // type UserType = "host" | "guest";
 
@@ -17,10 +13,9 @@ const ViewLivestream = () => {
   return (
     // <ViewStream roomName={id as string} userType={mode as UserType}/>
     <StreamRoom roomName={id as string}>
-    <StreamView />
+      <StreamView />
+    </StreamRoom>
+  );
+};
 
-  </StreamRoom>
-  )
-}
-
-export default ViewLivestream
+export default ViewLivestream;
