@@ -12,9 +12,10 @@
   "dependencies": {
     "@livekit/components-react": "^2.6.7",
     "@streamlink/react": "^0.2.0",
-    "@vidbloq/react": "^0.1.2",
+    "@vidbloq/react": "^0.1.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
     "react-router-dom": "^6.28.0"
   },
   "devDependencies": {
