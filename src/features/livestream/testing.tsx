@@ -1,14 +1,24 @@
-import { StreamView, useStreamContext, Prejoin } from "@vidbloq/react"
+import { StreamView, useStreamContext, Prejoin } from "@vidbloq/react";
+import { WalletButton } from "@streamlink/react";
 // import Prejoin from "./prejoin";
 
 const Testing = () => {
-    const { token } = useStreamContext();
+  const { token } = useStreamContext();
   return (
     <>
-       {token ? <StreamView /> : <Prejoin />}
-    </>
- 
-  )
-}
+      {token ? (
+        <StreamView />
+      ) : (
+        <>
+          <div className="border">
+            <WalletButton />
+          </div>
 
-export default Testing
+          <Prejoin />
+        </>
+      )}
+    </>
+  );
+};
+
+export default Testing;

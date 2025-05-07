@@ -2,6 +2,7 @@
 import { useParams } from "react-router-dom";
 import "@livekit/components-styles";
 import { StreamRoom } from "@vidbloq/react";
+
 // import Prejoin from "./prejoin";
 import Testing from "./testing";
 
@@ -15,9 +16,10 @@ const ViewLivestream = () => {
   // const mode = searchParams.get("mode");
   return (
     // <ViewStream roomName={id as string} userType={mode as UserType}/>
-    <StreamRoom roomName={id as string}>
+     <StreamRoom roomName={id as string}>
      <Testing />
     </StreamRoom>
+
   );
 };
 

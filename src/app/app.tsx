@@ -1,4 +1,4 @@
-// import { StreamLinkRoom } from "@streamlink/react";
+import { StreamLinkRoom } from "@streamlink/react";
 import { WalletProviders } from "../context";
 import { AppRouter } from "./app-router";
 import { VidbloqProvider, WalletAdapterBridge } from "@vidbloq/react";
@@ -14,7 +14,10 @@ export function App() {
         apiSecret="iO24O0xXjuXSsIhfLorPKRS2NvcWjbRswYLcnYAvxk4="
       >
         <WalletAdapterBridge />
+        <StreamLinkRoom>
         <AppRouter />
+        </StreamLinkRoom>
+       
       </VidbloqProvider>
     </WalletProviders>
   );
