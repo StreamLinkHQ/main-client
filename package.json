@@ -14,7 +14,7 @@
     "@solana/wallet-adapter-react-ui": "^0.9.38",
     "@tiplink/wallet-adapter": "^2.1.21",
     "@tiplink/wallet-adapter-react-ui": "^1.0.0",
-    "@vidbloq/react": "file:../../Vidbloq/sdks/react/vidbloq-v1/vidbloq-react-0.1.4.tgz",
+    "@vidbloq/react": "^0.1.5",
     "install": "^0.13.0",
     "npm": "^11.3.0",
     "react": "^18.3.1",
