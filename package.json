@@ -10,9 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@livekit/components-react": "^2.6.7",
-    "@streamlink/react": "^0.2.0",
-    "@vidbloq/react": "^0.1.4",
+    "@solana/wallet-adapter-react": "^0.15.38",
+    "@solana/wallet-adapter-react-ui": "^0.9.38",
+    "@tiplink/wallet-adapter": "^2.1.21",
+    "@tiplink/wallet-adapter-react-ui": "^1.0.0",
+    "@vidbloq/react": "file:../../Vidbloq/sdks/react/vidbloq-v1/vidbloq-react-0.1.4.tgz",
+    "install": "^0.13.0",
+    "npm": "^11.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.5.0",

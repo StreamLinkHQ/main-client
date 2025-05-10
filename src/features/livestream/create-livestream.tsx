@@ -1,10 +1,10 @@
-import { CreateStream, WalletButton } from "@streamlink/react";
 
 const CreateLivestream = () => {
   return (
     <>
-      <WalletButton />
-      <CreateStream />
+      {/* <WalletButton />
+      <CreateStream /> */}
+      <p>hey there</p>
     </>
   );
 };

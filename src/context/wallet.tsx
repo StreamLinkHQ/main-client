@@ -27,11 +27,14 @@ export const WalletProviders = ({
         title: "Streamlink",
         clientId: "3d4e3da1-1e46-4715-80c7-30de8b045a4d",
         theme: "dark",
+        hideDraggableWidget: true,
+        hideWalletOnboard: true,
         walletAdapterNetwork:
           network === "devnet"
             ? WalletAdapterNetwork.Devnet
             : WalletAdapterNetwork.Mainnet,
       }),
+     
       // new SolfareWalletAdapter({})
     ],
     [network]

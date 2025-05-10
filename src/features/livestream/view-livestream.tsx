@@ -1,6 +1,5 @@
 // import { ViewStream } from "@streamlink/react"
 import { useParams } from "react-router-dom";
-import "@livekit/components-styles";
 import { StreamRoom } from "@vidbloq/react";
 
 // import Prejoin from "./prejoin";
